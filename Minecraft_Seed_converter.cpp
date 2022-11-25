@@ -164,6 +164,12 @@ string Terry = "Terry";
 string Pratchett = "Pratchett";
 string Technically = "Technically";
 
+string Monster;
+string infighting;
+
+
+
+
 
 
 
@@ -315,7 +321,7 @@ string SeventiethSeed;
 
 
 //Temporarily declaring arrays right here before moving them to the main block of array declarations up above. This is so it is more convenient to write.
-string SixtiethSeedArray[19];
+string SixtiethSeedArray[19] = {M, o, n, s, t, e, r, " ", i, n, f, i, g, h, t, i, n, g, "!"};
 string SixtyFirstSeedArray[30];
 string SixtySecondSeedArray[19];
 string SixtyThirdSeedArray[20];
@@ -537,6 +543,14 @@ FourteenthSeedNumber = -1515550977;
 if ((FourteenthSeed) == "Not" and " " and "as" and " " and "cool" and " " and "as" and " " and "Spock!") {
 cout << "Your Fourteenth Seed is" << ":" << " " << FourteenthSeedNumber << endl; }
 
+cout << "What is the Fifteenth Seed That You Want to Convert" << "?" << endl;
+cin >> FifteenthSeed;
+
+FifteenthSeedNumber = -1427588257;
+
+if (FifteenthSeed == "Feature packed!") {
+cout << "Your Fifteenth Seed is" << ":" << " " << FifteenthSeedNumber << endl;
+}
 
 
 
@@ -544,9 +558,40 @@ cout << "Your Fourteenth Seed is" << ":" << " " << FourteenthSeedNumber << endl;
 
 
 
+//Setting all of the seed number variables to their inital values before they're changed to their final values and output to ensure that they haven't changed since they were last updated.
+FirstSeedNumber = 0;
+SecondSeedNumber = 0;
+ThirdSeedNumber = 0;
+FourthSeedNumber = 0;
+FifthSeedNumber = 0;
+SixthSeedNumber = 0;
+SeventhSeedNumber = 0;
+EighthSeedNumber = 0;
+NinthSeedNumber = 0;
+TenthSeedNumber = 0;
+EleventhSeedNumber = 0;
+TwelvethSeedNumber = 0;
+ThirteenthSeedNumber = 0;
+FourteenthSeedNumber = 0;
+FifteenthSeedNumber = 0;
 
 
-
+//Setting all of the seed number variables to their final values before they're output to ensure that they haven't changed since they were last updated.
+FirstSeedNumber = -1810686126;
+SecondSeedNumber = -1299122138;
+ThirdSeedNumber = 704695333;
+FourthSeedNumber = 841911383;
+FifthSeedNumber = 644147651;
+SixthSeedNumber = 2036351819;
+SeventhSeedNumber = 1374701714;
+EighthSeedNumber = -1431799974;
+NinthSeedNumber = -791050504;
+TenthSeedNumber = 143752824;
+EleventhSeedNumber = 549314060;
+TwelvethSeedNumber = 1574333678;
+ThirteenthSeedNumber = -1147073430;
+FourteenthSeedNumber = -1515550977;
+FifteenthSeedNumber = -1427588257;
 
 
 
@@ -568,7 +613,7 @@ cout << EleventhSeedNumber << endl;
 cout << TwelvethSeedNumber << endl;
 cout << ThirteenthSeedNumber << endl;
 cout << FourteenthSeedNumber << endl;
-
+cout << FifteenthSeedNumber << endl;
 
 
 cout << "Would You Like to Exit" << "?" << endl;
