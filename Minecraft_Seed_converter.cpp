@@ -83,8 +83,19 @@ int FiftySixthSeedNumber = 0;
 int FiftySeventhSeedNumber = 0;
 int FiftyEighthSeedNumber = 0;
 int FiftyNinthSeedNumber = 0;
+int SixtiethSeedNumber = 0;
+int SixtyFirstSeedNumber = 0;
+int SixtySecondSeedNumber = 0;
+int SixtyThirdSeedNumber = 0;
+int SixtyFourthSeedNumber = 0;
+int SixtyFifthSeedNumber = 0;
+int SixtySixthSeedNumber = 0;
+int SixtySeventhSeedNumber = 0;
+int SixtyEighthSeedNumber = 0;
+int SixtyNinthSeedNumber = 0;
+int SeventiethSeedNumber = 0;
 
-//Declaring the entiretiy of the American English Alphabet letter by letter so the compiler won't bitch about shit not being declared.
+//Declaring the entirety of the American English Alphabet letter by letter so the compiler won't bitch about shit not being declared.
 string Exit;
 string a;
 string b;
@@ -163,13 +174,22 @@ string GNU = "GNU";
 string Terry = "Terry";
 string Pratchett = "Pratchett";
 string Technically = "Technically";
-
-string Monster;
-string infighting;
-
-
-
-
+string Monster = "Monster";
+string infighting = "infighting";
+string Less = "Less";
+string addictive = "addictive";
+string than = "than";
+string TV = "TV";
+string Tropes = "Tropes";
+string Exploding = "Exploding";
+string creepers = "creepers";
+string somethingawful = "somethingawful";
+string Doesnt = "Doesn't";
+string avoid = "avoid";
+string NotAnumber = "double";
+string negatives = "negatives";
+string Feature = "Feature";
+string packed = "packed";
 
 
 
@@ -184,10 +204,13 @@ string Period = ".";
 string FiftiethSeedArray[37] = {T, h, r, o, w, " ", y, o, u, r, s, e, l, f, " ", a, t, " ", t, h, e, " ", g, r, o, u, n, d, " ", a, n, d, " ", m, i, s, s};
 string ThirtiethSeedArray[34] = {H, a, n, g, " ", o, u, t, " ", w, i, t, h, " ", y, o, u, r, " ", f, r, i, e, n, d, s, " ", o, n, l, i, n, e, "!"};
 string FortyThirdSeedArray[31] = {N, o, w, " ", o, n, " ", O, p, e, n, G, L, " ", "3", ".", "2", " ", c, o, r, e, " ", p, r, o, f, i, l, e, "!"};
+string SixtyFourthSeedArray[31] = {D, o, e, s, n, "'", t, " ", a, v, o, i, d, " ", d, o, u, b, l, e, " ", n, e, g, a, t, i, v, e, s, "!"};
+string SixtyFirstSeedArray[30] = {L, e, s, s, " ", a, d, d, i, c, t, i, v, e, " ", t, h, a, n, " ", T, V, " ", T, r, o, p, e, s, "!"};
 string EleventhSeedArray[29] = {P, u, t, " ", a, " ", l, i, t, t, l, e, " ", f, e, n, c, e, " ", a, r, o, u, n, d, " ", i, t, "!"};
 string ThirtyNinthSeedArray[26] = {H, o, n, e, y, ",", " ", I, " ", w, a, x, e, d, " ", t, h, e, " ", c, o, p, p, e, r, "!"};
 string SixthSeedArray[26] = {C, o, m, p, l, e, x, " ", c, e, l, l, u, l, a, r, " ", a, u, t, o, m, a, t, a, "!"};
 string FiftyFifthSeedArray[25] = {S, t, a, y, " ", h, o, m, e, " ", a, n, d, " ", p, l, a, y, " ", g, a, m, e, s, "!"};
+string SixtyNinthSeedArray[24] = {E, n, v, i, s, i, o, n, "!", " ", C, r, e, a, t, e, "!", " ", S, h, a, r, e, "!"};
 string TwentythirdSeedArray[24] = {T, h, r, o, w, " ", a, " ", b, l, a, n, k, e, t, " ", o, v, e, r, " ", i, t, "!"};
 string FiftyEighthSeedArray[23] = {D, u, n, g, e, o, n, Q, u, e, s, t, " ", i, s, " ", u, n, f, a, i, r, "!"};
 string ThirtyThirdSeedArray[23] = {T, e, c, h, n, o, b, l, a, d, e, " ", n, e, v, e, r, " ", d, i, e, s, "!"};
@@ -202,10 +225,17 @@ string ThirtyFourthSeedArray[20] = {I, " ", n, e, e, d, " ", m, o, r, e, " ", c,
 string TwentyeighthSeedArray[20] = {M, i, l, l, i, o, n, s, " ", o, f, " ", p, e, a, c, h, e, s, "!"};
 string TwentyninthSeedArray[20] = {A, l, l, " ", r, u, m, o, r, s, " ", a, r, e, " ", t, r, u, e, "!"};
 string FiftyFirstSeedArray[20] = {K, i, n, d, a, " ", l, i, k, e, " ", L, e, m, m, i, n, g, s, "!"};
+string SixtyThirdSeedArray[20] = {W, o, o, ",", " ", s, o, m, e, t, h, i, n, g, a, w, f, u, l, "!"};
+string SixtyFifthSeedArray[20] = {"1", "2", " ", h, e, r, b, s, " ", a, n, d, " ", s, p, i, c, e, s, "!"};
+string SixtiethSeedArray[19] = {M, o, n, s, t, e, r, " ", i, n, f, i, g, h, t, i, n, g, "!"};
+string SixtySecondSeedArray[19] = {E, x, p, l, o, d, i, n, g, " ", c, r, e, e, p, e, r, s, "!"};
+string SixtySeventhSeedArray[19] = {M, o, r, e, " ", t, h, a, n, " ", "5", "0", "0", " ", s, o, l, d, "!"};
 string TwentiethSeedArray[19] = {J, a, v, a, l, i, c, i, o, u, s, " ", e, d, i, t, i, o, n};
 string ThirtyFifthSeedArray[19] = {R, e, g, i, o, n, a, l, " ", r, e, s, o, u, r, c, e, s, "!"};
 string FiftySixthSeedArray[19] = {G, N, U, " ", T, e, r, r, y, " ", P, r, a, t, c, h, e, t, t};
 string ThirteenthSeedArray[18] = {T, e, l, l, " ", y, o, u, r, " ", f, r, i, e, n, d, s, "!"};
+string SixtyEighthSeedArray[18] = {K, i, c, k, " ", i, t, " ", r, o, o, t, " ", d, o, w, n, "!"};
+string SeventiethSeedArray[17] = {M, a, y, " ", c, o, n, t, a, i, n, " ", n, u, t, s, "!"};
 string TwelvethSeedArray[17] = {T, e, c, h, n, i, c, a, l, l, y, " ", g, o, o, d, "!"};
 string ThirtySeventhSeedArray[17] = {M, y, " ", l, i, f, e, " ", f, o, r, " ", A, i, u, r, "!"};
 string ThirtySixthSeedArray[16] = {T, a, k, e, " ", h, e, r, " ", p, i, l, l, o, w, "!"};
@@ -226,6 +256,7 @@ string TwentyfifthSeedArray[13] = {W, a, t, e, r, " ", b, o, t, t, l, e, "!"};
 string TwentyfirstSeedArray[13] = {P, r, e, t, t, y, " ", s, c, a, r, y, "!"};
 string TwentysecondSeedArray[13] = {S, i, n, g, l, e, p, l, a, y, e, r, "!"};
 string ThirtyEighthSeedArray[13] = {T, h, a, t, "'", s, " ", s, u, p, e, r, "!"};
+string SixtySixthSeedArray[12] = {I, t, "'", s, " ", a, " ", g, a, m, e, "!"};
 string ThirtyFirstSeedArray[12] = {B, r, i, n, g, " ", i, t, " ", o, n, "!"};
 string FifthSeedArray[12] = {S, t, a, y, " ", s, t, r, o, n, g, "!"};
 string NinthSeedArray[12] = {W, o, o, ",", " ", r, e, d, d, i, t, "!"};
@@ -240,8 +271,6 @@ string EighthSeedArray[9] = {W, o, o, " ", "2", p, p, "!"};
 string SeventeenthSeedArray[9] = {B, o, a, t, s, " ", F, T, W};
 string SecondSeedArray[8] = {V, a, n, i, l, l, a, "!"};
 string EighteenthSeedArray[6] = {F, n, o, r, d, "!"};
-
-
 
 
 
@@ -305,7 +334,6 @@ string FiftySixthSeed;
 string FiftySeventhSeed;
 string FiftyEighthSeed;
 string FiftyNinthSeed;
-
 string SixtiethSeed;
 string SixtyFirstSeed;
 string SixtySecondSeed;
@@ -318,56 +346,62 @@ string SixtyEighthSeed;
 string SixtyNinthSeed;
 string SeventiethSeed;
 
+string SeventyFirstSeed;
+string SeventySecondSeed;
+string SeventyThirdSeed;
+string SeventyFourthSeed;
+string SeventyFifthSeed;
+string SeventySixthSeed;
+string SeventySeventhSeed;
+string SeventyEighthSeed;
+string SeventyNinthSeed;
+string EightiethSeed;
+
+
+
+
+
+
+
+
+
+
+
 
 
 //Temporarily declaring arrays right here before moving them to the main block of array declarations up above. This is so it is more convenient to write.
-string SixtiethSeedArray[19] = {M, o, n, s, t, e, r, " ", i, n, f, i, g, h, t, i, n, g, "!"};
-string SixtyFirstSeedArray[30];
-string SixtySecondSeedArray[19];
-string SixtyThirdSeedArray[20];
-string SixtyFourthSeedArray[31];
-string SixtyFifthSeedArray;
-string SixtySixthSeedArray;
-string SixtySeventhSeedArray;
-string SixtyEighthSeedArray;
-string SixtyNinthSeedArray;
-string SeventiethSeedArray;
+string SeventyFirstSeedArray;
+string SeventySecondSeedArray;
+string SeventyThirdSeedArray;
+string SeventyFourthSeedArray;
+string SeventyFifthSeedArray;
+string SeventySixthSeedArray;
+string SeventySeventhSeedArray;
+string SeventyEighthSeedArray;
+string SeventyNinthSeedArray;
+string EightiethSeedArray;
+
+
 
 
 //Seeds to be put into arrays.
 /*
-Monster infighting!
-Less addictive than TV Tropes!
-Exploding creepers!
-Woo, somethingawful!
-Doesn't avoid double negatives!
-12 herbs and spices!
-It's a game!
-More than 500 sold!
-Kick it root down!
-Envision! Create! Share!
-May contain nuts!
 Minors welcome!
 Welcome to your Doom!
 Cogito ergo sum!
 What's the question?
 Play him off, keyboard cat!
+Fan fiction!
+Mmmph, mmph!
+Finger-licking!
+In case it isn't obvious, foxes aren't players.
+Follow the train, CJ!
 */
 
 
 
 //Additional integer variables declared here for the time being. These will be moved up to the top along with the other integer declarations.
-int SixtiethSeedNumber = 0;
-int SixtyFirstSeedNumber = 0;
-int SixtySecondSeedNumber = 0;
-int SixtyThirdSeedNumber = 0;
-int SixtyFourthSeedNumber = 0;
-int SixtyFifthSeedNumber = 0;
-int SixtySixthSeedNumber = 0;
-int SixtySeventhSeedNumber = 0;
-int SixtyEighthSeedNumber = 0;
-int SixtyNinthSeedNumber = 0;
-int SeventiethSeedNumber = 0;
+
 
 //Outputs the memory address of each array.
 cout << FirstSeedArray << endl;
@@ -429,6 +463,18 @@ cout << FiftySixthSeedArray << endl;
 cout << FiftySeventhSeedArray << endl;
 cout << FiftyEighthSeedArray << endl;
 cout << FiftyNinthSeedArray << endl;
+cout << SixtiethSeedArray << endl;
+cout << SixtyFirstSeedArray << endl;
+cout << SixtySecondSeedArray << endl;
+cout << SixtyThirdSeedArray << endl;
+cout << SixtyFourthSeedArray << endl;
+cout << SixtyFifthSeedArray << endl;
+cout << SixtySixthSeedArray << endl;
+cout << SixtySeventhSeedArray << endl;
+cout << SixtyEighthSeedArray << endl;
+cout << SixtyNinthSeedArray << endl;
+cout << SeventiethSeedArray << endl;
+
 
 
 cout << "What is the First Seed That You Want to Convert" << "?" << endl;
@@ -524,7 +570,7 @@ cin >> TwelvethSeed;
 
 TwelvethSeedNumber = 1574333678;
 
-if ((TwelvethSeed) == "Technically" and " " and "good!") {
+if ((TwelvethSeed) == "Technically" && " " && "good!") {
 cout << "Your Twelveth Seed is" << ":" << " " << TwelvethSeedNumber << endl; }
 
 cout << "What is the Thirteenth Seed That You Want to Convert" << "?" << endl;
@@ -532,7 +578,7 @@ cin >> ThirteenthSeed;
 
 ThirteenthSeedNumber = -1147073430;
 
-if ((ThirteenthSeed) == "Tell" and " " and "your" and " " and "friends!") {
+if ((ThirteenthSeed) == "Tell" && " " && "your" && " " && "friends!") {
 cout << "Your Thirteenth Seed is" << ":" << " " << ThirteenthSeedNumber << endl; }
 
 cout << "What is the Fourteenth Seed That You Want to Convert" << "?" << endl;
@@ -540,7 +586,7 @@ cin >> FourteenthSeed;
 
 FourteenthSeedNumber = -1515550977;
 
-if ((FourteenthSeed) == "Not" and " " and "as" and " " and "cool" and " " and "as" and " " and "Spock!") {
+if ((FourteenthSeed) == "Not" && " " && "as" && " " && "cool" && " " && "as" && " " && "Spock!") {
 cout << "Your Fourteenth Seed is" << ":" << " " << FourteenthSeedNumber << endl; }
 
 cout << "What is the Fifteenth Seed That You Want to Convert" << "?" << endl;
@@ -548,9 +594,79 @@ cin >> FifteenthSeed;
 
 FifteenthSeedNumber = -1427588257;
 
-if (FifteenthSeed == "Feature packed!") {
+if ((FifteenthSeed) == "Feature" && " " && "packed!") {
 cout << "Your Fifteenth Seed is" << ":" << " " << FifteenthSeedNumber << endl;
 }
+
+cout << "What is the Sixteenth Seed That You Want to Convert" << "?" << endl;
+cin >> SixteenthSeed;
+
+SixteenthSeedNumber = 1231855230;
+
+if (SixteenthSeed == "The sum of its parts!") {
+cout << "Your Sixteenth Seed is" << ":" << " " << SixteenthSeedNumber << endl;
+}
+
+cout << "What is the Seventeenth Seed That You Want to Convert" << "?" << endl;
+cin >> SeventeenthSeed;
+
+SeventeenthSeedNumber = 467262140;
+
+if (SeventeenthSeed == "Boats FTW") {
+cout << "Your Seventeenth Seed is" << ":" << " " << SeventeenthSeedNumber << endl;
+}
+
+cout << "What is the Eighteenth Seed That You Want to Convert" << "?" << endl;
+cin >> EighteenthSeed;
+
+EighteenthSeedNumber = 2109047368;
+
+if (EighteenthSeed == "Fnord!") {
+cout << "Your Eighteenth Seed is" << ":" << " " << EighteenthSeedNumber << endl;
+}
+
+cout << "What is the Nineteenth Seed That You Want to Convert" << "?" << endl;
+cin >> NineteenthSeed;
+
+NineteenthSeedNumber = 1890397784;
+
+if (NineteenthSeed == "Cloud computing!") {
+cout << "Your Nineteenth Seed is" << ":" << " " << NineteenthSeedNumber << endl;
+}
+
+cout << "What is the Twentieth Seed That You Want to Convert" << "?" << endl;
+cin >> TwentiethSeed;
+
+TwentiethSeedNumber = -515975450;
+
+if (TwentiethSeed == "Javalicious edition") {
+cout << "Your Twentieth Seed is" << ":" << " " << TwentiethSeedNumber << endl;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -574,9 +690,13 @@ TwelvethSeedNumber = 0;
 ThirteenthSeedNumber = 0;
 FourteenthSeedNumber = 0;
 FifteenthSeedNumber = 0;
+SixteenthSeedNumber = 0;
+SeventeenthSeedNumber = 0;
+EighteenthSeedNumber = 0;
+NineteenthSeedNumber = 0;
+TwentiethSeedNumber = 0;
 
-
-//Setting all of the seed number variables to their final values before they're output to ensure that they haven't changed since they were last updated.
+//Setting all of the seed number variables back to their final values before they're output to ensure that they haven't changed since they were last updated.
 FirstSeedNumber = -1810686126;
 SecondSeedNumber = -1299122138;
 ThirdSeedNumber = 704695333;
@@ -592,10 +712,11 @@ TwelvethSeedNumber = 1574333678;
 ThirteenthSeedNumber = -1147073430;
 FourteenthSeedNumber = -1515550977;
 FifteenthSeedNumber = -1427588257;
-
-
-
-
+SixteenthSeedNumber = 1231855230;
+SeventeenthSeedNumber = 467262140;
+EighteenthSeedNumber = 2109047368;
+NineteenthSeedNumber = 1890397784;
+TwentiethSeedNumber = -515975450;
 
 //Outputs all of the seeds converted thus far.
 cout << "Here Are All of the Seed Numbers So Far" << ":" << endl;
@@ -614,7 +735,11 @@ cout << TwelvethSeedNumber << endl;
 cout << ThirteenthSeedNumber << endl;
 cout << FourteenthSeedNumber << endl;
 cout << FifteenthSeedNumber << endl;
-
+cout << SixteenthSeedNumber << endl;
+cout << SeventeenthSeedNumber << endl;
+cout << EighteenthSeedNumber << endl;
+cout << NineteenthSeedNumber << endl;
+cout << TwentiethSeedNumber << endl;
 
 cout << "Would You Like to Exit" << "?" << endl;
 cin >> Exit;
