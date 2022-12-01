@@ -3,4 +3,4 @@ Takes a string as input and outputs the Minecraft seed associated with that spec
 The order in which you input the strings matters.
 
 
-This has been updated for Minecraft Java Edition 1.19.2
+This has been updated for Minecraft Java Edition 1.19.2 and will be updated as Minecraft Java Edition gets further updated.
