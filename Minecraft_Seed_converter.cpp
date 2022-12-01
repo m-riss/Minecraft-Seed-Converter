@@ -151,35 +151,36 @@ string Y;
 string Z;
 
 //String declarations for the seeds themselves.
-string Plz = "Plz";
-string reply = "reply";
+string TV = "TV";
 string to = "to";
 string my = "my";
-string tweet = "tweet";
+string it = "it";
+string Woo = "Woo";
+string NotDicks = "2pp";
+string Put = "Put";
+string GNU = "GNU";
+string The = "The";
+string Plz = "Plz";
 string Stay = "Stay";
+string Less = "Less";
+string than = "than";
+string reply = "reply";
+string tweet = "tweet";
 string strong = "strong";
 string Complex = "Complex";
 string cellular = "cellular";
 string automata = "automata";
 string Peter = "Peter";
 string Griffin = "Griffin";
-string Woo = "Woo";
-string NotDicks = "2pp";
-string Put = "Put";
 string little = "little";
 string fence = "fence";
 string around = "around";
-string it = "it";
-string GNU = "GNU";
 string Terry = "Terry";
 string Pratchett = "Pratchett";
 string Technically = "Technically";
 string Monster = "Monster";
 string infighting = "infighting";
-string Less = "Less";
 string addictive = "addictive";
-string than = "than";
-string TV = "TV";
 string Tropes = "Tropes";
 string Exploding = "Exploding";
 string creepers = "creepers";
@@ -190,6 +191,14 @@ string NotAnumber = "double";
 string negatives = "negatives";
 string Feature = "Feature";
 string packed = "packed";
+string sum = "sum";
+string of = "of";
+
+
+
+
+
+
 
 
 
@@ -271,7 +280,9 @@ string EighthSeedArray[9] = {W, o, o, " ", "2", p, p, "!"};
 string SeventeenthSeedArray[9] = {B, o, a, t, s, " ", F, T, W};
 string SecondSeedArray[8] = {V, a, n, i, l, l, a, "!"};
 string EighteenthSeedArray[6] = {F, n, o, r, d, "!"};
-
+string SeventyFirstSeedArray[15] = {M, i, n, o, r, s, " ", w, e, l, c, o, m, e, "!"};
+string SeventySecondSeedArray[21] = {W, e, l, c, o, m, e, " ", t, o, " ", y, o, u, r, " ", D, o, o, m, "!"};
+string SeventyThirdSeedArray[16] = {C, o, g, i, t, o, " ", e, r, g, o, " ", s, u, m, "!"};
 
 
 //String declarations for the inputs of each question down below.
@@ -295,15 +306,15 @@ string SeventeenthSeed;
 string EighteenthSeed;
 string NineteenthSeed;
 string TwentiethSeed;
-string TwentyfirstSeed;
-string TwentysecondSeed;
-string TwentythirdSeed;
-string TwentyfourthSeed;
-string TwentyfifthSeed;
-string TwentysixthSeed;
-string TwentyseventhSeed;
-string TwentyeighthSeed;
-string TwentyninthSeed;
+string TwentyFirstSeed;
+string TwentySecondSeed;
+string TwentyThirdSeed;
+string TwentyFourthSeed;
+string TwentyFifthSeed;
+string TwentySixthSeed;
+string TwentySeventhSeed;
+string TwentyEighthSeed;
+string TwentyNinthSeed;
 string ThirtiethSeed;
 string ThirtyFirstSeed;
 string ThirtySecondSeed;
@@ -359,20 +370,20 @@ string EightiethSeed;
 
 
 
+/*
+Seed Conversion:
+
+X * 31 ^ Y
 
 
 
-
-
+*/
 
 
 
 
 
 //Temporarily declaring arrays right here before moving them to the main block of array declarations up above. This is so it is more convenient to write.
-string SeventyFirstSeedArray;
-string SeventySecondSeedArray;
-string SeventyThirdSeedArray;
 string SeventyFourthSeedArray;
 string SeventyFifthSeedArray;
 string SeventySixthSeedArray;
@@ -386,9 +397,6 @@ string EightiethSeedArray;
 
 //Seeds to be put into arrays.
 /*
-Minors welcome!
-Welcome to your Doom!
-Cogito ergo sum!
 What's the question?
 Play him off, keyboard cat!
 Fan fiction!
@@ -401,7 +409,16 @@ Follow the train, CJ!
 
 
 //Additional integer variables declared here for the time being. These will be moved up to the top along with the other integer declarations.
-
+int SeventyFirstSeedNumber = 0;
+int SeventySecondSeedNumber = 0;
+int SeventyThirdSeedNumber = 0;
+int SeventyFourthSeedNumber = 0;
+int SeventyFifthSeedNumber = 0;
+int SeventySixthSeedNumber = 0;
+int SeventySeventhSeedNumber = 0;
+int SeventyEighthSeedNumber = 0;
+int SeventyNinthSeedNumber = 0;
+int EightiethSeedNumber = 0;
 
 //Outputs the memory address of each array.
 cout << FirstSeedArray << endl;
@@ -474,7 +491,16 @@ cout << SixtySeventhSeedArray << endl;
 cout << SixtyEighthSeedArray << endl;
 cout << SixtyNinthSeedArray << endl;
 cout << SeventiethSeedArray << endl;
-
+cout << SeventyFirstSeedArray << endl;
+cout << SeventySecondSeedArray << endl;
+cout << SeventyThirdSeedArray << endl;
+cout << SeventyFourthSeedArray << endl;
+cout << SeventyFifthSeedArray << endl;
+cout << SeventySixthSeedArray << endl;
+cout << SeventySeventhSeedArray << endl;
+cout << SeventyEighthSeedArray << endl;
+cout << SeventyNinthSeedArray << endl;
+cout << EightiethSeedArray << endl;
 
 
 cout << "What is the First Seed That You Want to Convert" << "?" << endl;
@@ -595,26 +621,23 @@ cin >> FifteenthSeed;
 FifteenthSeedNumber = -1427588257;
 
 if ((FifteenthSeed) == "Feature" && " " && "packed!") {
-cout << "Your Fifteenth Seed is" << ":" << " " << FifteenthSeedNumber << endl;
-}
+cout << "Your Fifteenth Seed is" << ":" << " " << FifteenthSeedNumber << endl; }
 
 cout << "What is the Sixteenth Seed That You Want to Convert" << "?" << endl;
 cin >> SixteenthSeed;
 
 SixteenthSeedNumber = 1231855230;
 
-if (SixteenthSeed == "The sum of its parts!") {
-cout << "Your Sixteenth Seed is" << ":" << " " << SixteenthSeedNumber << endl;
-}
+if ((SixteenthSeed) == "The" && " " && "sum" && " " && "of" && " " && "its" && " " && "parts" && "!") {
+cout << "Your Sixteenth Seed is" << ":" << " " << SixteenthSeedNumber << endl; }
 
 cout << "What is the Seventeenth Seed That You Want to Convert" << "?" << endl;
 cin >> SeventeenthSeed;
 
 SeventeenthSeedNumber = 467262140;
 
-if (SeventeenthSeed == "Boats FTW") {
-cout << "Your Seventeenth Seed is" << ":" << " " << SeventeenthSeedNumber << endl;
-}
+if ((SeventeenthSeed) == "Boats" && " " && "FTW") {
+cout << "Your Seventeenth Seed is" << ":" << " " << SeventeenthSeedNumber << endl; }
 
 cout << "What is the Eighteenth Seed That You Want to Convert" << "?" << endl;
 cin >> EighteenthSeed;
@@ -622,8 +645,7 @@ cin >> EighteenthSeed;
 EighteenthSeedNumber = 2109047368;
 
 if (EighteenthSeed == "Fnord!") {
-cout << "Your Eighteenth Seed is" << ":" << " " << EighteenthSeedNumber << endl;
-}
+cout << "Your Eighteenth Seed is" << ":" << " " << EighteenthSeedNumber << endl; }
 
 cout << "What is the Nineteenth Seed That You Want to Convert" << "?" << endl;
 cin >> NineteenthSeed;
@@ -643,26 +665,30 @@ if (TwentiethSeed == "Javalicious edition") {
 cout << "Your Twentieth Seed is" << ":" << " " << TwentiethSeedNumber << endl;
 }
 
+cout << "What is the Twentyfirst Seed That You Want to Convert" << "?" << endl;
+cin >> TwentyFirstSeed;
 
+TwentyfirstSeedNumber = 346396627;
 
+if (TwentyFirstSeed == "Pretty scary!") {
+cout << "Your Twenty First Seed is" << ":" << " " << TwentyfirstSeedNumber << endl; }
 
+cout << "What is the Twenty Second Seed That You Want to Convert" << "?" << endl;
+cin >> TwentySecondSeed;
 
+TwentysecondSeedNumber = 728992760;
 
+if (TwentySecondSeed == "Singleplayer!") {
+cout << "Your Twenty Second Seed is" << ":" << " " << TwentysecondSeedNumber << endl; }
 
+cout << "What is the Twenty Third Seed That You Want to Convert" << "?" << endl;
+cin >> TwentyThirdSeed;
 
+TwentythirdSeedNumber = -289035001;
 
-
-
-
-
-
-
-
-
-
-
-
-
+if (TwentyThirdSeed == "Helo Cymru!") {
+cout << "Your Twenty Third Seed is" << ":" << " " << TwentythirdSeedNumber << endl;
+}
 
 
 
@@ -695,6 +721,8 @@ SeventeenthSeedNumber = 0;
 EighteenthSeedNumber = 0;
 NineteenthSeedNumber = 0;
 TwentiethSeedNumber = 0;
+TwentyfirstSeedNumber = 0;
+TwentysecondSeedNumber = 0;
 
 //Setting all of the seed number variables back to their final values before they're output to ensure that they haven't changed since they were last updated.
 FirstSeedNumber = -1810686126;
@@ -717,6 +745,8 @@ SeventeenthSeedNumber = 467262140;
 EighteenthSeedNumber = 2109047368;
 NineteenthSeedNumber = 1890397784;
 TwentiethSeedNumber = -515975450;
+TwentyfirstSeedNumber = 346396627;
+TwentysecondSeedNumber = 728992760;
 
 //Outputs all of the seeds converted thus far.
 cout << "Here Are All of the Seed Numbers So Far" << ":" << endl;
@@ -740,6 +770,11 @@ cout << SeventeenthSeedNumber << endl;
 cout << EighteenthSeedNumber << endl;
 cout << NineteenthSeedNumber << endl;
 cout << TwentiethSeedNumber << endl;
+cout << TwentyfirstSeedNumber << endl;
+cout << TwentysecondSeedNumber << endl;
+
+
+
 
 cout << "Would You Like to Exit" << "?" << endl;
 cin >> Exit;
