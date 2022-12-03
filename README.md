@@ -4,3 +4,5 @@ The order in which you input the strings matters.
 
 
 This has been updated for Minecraft Java Edition 1.19.2 and will be updated as Minecraft Java Edition gets further updates.
+
+I do plan on splitting variable declarations into their own files at some point in the near-ish future, but that will have to wait until I can figure out how make files actually work.
