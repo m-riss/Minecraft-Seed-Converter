@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <array>
-#include <Aplhabet_Declarations.cpp>
+#include <Alphabet_Declarations.cpp>
 
 using std::cin;
 using std::cout;
