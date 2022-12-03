@@ -9,6 +9,11 @@ using std::string;
 using std::array;
 
 int main() {
+string ExclamationPoint = "!";
+string Space = " ";
+string Comma = ",";
+string Apostrophe = "'";
+string Period = ".";
 string Exit;
 string a;
 string b;
