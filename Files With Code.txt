@@ -1,0 +1,3 @@
+Main file: Minecraft_Seed_Converter.cpp
+Declarations for the Alphabet: Alphabet_Declarations.cpp
+Declarations for the arrays containing the seeds: Seed_Arrays.cpp
