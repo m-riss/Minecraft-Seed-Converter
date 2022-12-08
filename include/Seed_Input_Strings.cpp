@@ -2,6 +2,13 @@
 #include <cmath>
 #include <ctime>
 #include <string>
+#include <array>
+#include <vector>
+#include <cstdint>
+#include <sstream>
+#include <memory>
+#include <memory_resource>
+#include <new>
 
 using std::cin;
 using std::cout;
