@@ -108,7 +108,9 @@ string NintyFourthSeedArray[10] = {M, i, n, e, c, r, a, f, t, "!"};
 string NintyFifthSeedArray[20] = {T, h, o, u, s, a, n, d, s, " ", o, f, " ", c, o, l, o, r, s, "!"};
 string NintySixthSeedArray[26] = {P, l, a, n, t, "-", b, a, s, e, d, " ", l, i, g, h, t, " ", s, o, u, r, c, e, s, "!"};
 string NintySeventhSeedArray[18] = {L, a, r, g, e, r, " ", t, h, a, n, " ", E, a, r, t, h, "!"};
-  
+string NintyEighthSeedArray[48] = {T, a, k, e, " ", a, n, " ", e, g, g, b, e, a, t, e, r, " ", a, n, d, " ", b, e, a, t, " ", i, t, " ", a, g, a, i, n, s, t, " ", a, " ", s, k, i, l, l, e, t, "!"};
+string NintyNinthSeedArray[15] = {W, o, o, ",", " ", t, i, g, s, o, u, r, c, e, "!"};
+string OneHundredthSeedArray[27] = {T, h, e, " ", t, r, u, e, " ", m, e, a, n, i, n, g, " ", o, f, " ", c, o, v, f, e, f, e};
   
   
   
