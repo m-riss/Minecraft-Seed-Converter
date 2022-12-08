@@ -108,4 +108,14 @@ int NintySeventhSeedNumber = 0;
 int NintyEighthSeedNumber = 0;
 int NintyNinthSeedNumber = 0;
 int OneHundredthSeedNumber = 0;
+int OneHundredFirstSeedNumber = 0;
+int OneHundredSecondSeedNumber = 0;
+int OneHundredThirdSeedNumber = 0;
+int OneHundredFourthSeedNumber = 0;
+int OneHundredFifthSeedNumber = 0;
+int OneHundredSixthSeedNumber = 0;
+int OneHundredSeventhSeedNumber = 0;
+int OneHundredEighthSeedNumber = 0;
+int OneHundredNinthSeedNumber = 0;
+int OneHundredTenthSeedNumber = 0;
 }
