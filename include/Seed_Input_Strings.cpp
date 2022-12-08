@@ -119,4 +119,14 @@ string NintySeventhSeed;
 string NintyEighthSeed;
 string NintyNinthSeed;
 string OneHundredthSeed;
+string OneHundredFirstSeed;
+string OneHundredSecondSeed;
+string OneHundredThirdSeed;
+string OneHundredFourthSeed;
+string OneHundredFifthSeed;
+string OneHundredSixthSeed;
+string OneHundredSeventhSeed;
+string OneHundredEighthSeed;
+string OneHundredNinthSeed;
+string OneHundredTenthSeed;
 }
